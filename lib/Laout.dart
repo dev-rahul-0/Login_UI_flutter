@@ -93,13 +93,13 @@ class _LayoutState extends State<Layout> {
                   style: TextStyle(color: Colors.white),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 5,
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 20, right: 20),
                 child: TextField(
-                  style: TextStyle(color: Colors.white),
+                  style: const TextStyle(color: Colors.white),
                   controller: _emailController,
                   decoration: InputDecoration(
                       hintText: 'Enter your E-mail',
@@ -110,7 +110,7 @@ class _LayoutState extends State<Layout> {
                               color: Colors.blue, width: 1.8))),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               const Padding(
@@ -120,13 +120,13 @@ class _LayoutState extends State<Layout> {
                   style: TextStyle(color: Colors.white),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 5,
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 20, right: 20),
                 child: TextField(
-                  style: TextStyle(color: Colors.white),
+                  style: const TextStyle(color: Colors.white),
                   controller: _passwordController,
                   decoration: InputDecoration(
                       hintText: 'Enter your Password',
@@ -137,7 +137,7 @@ class _LayoutState extends State<Layout> {
                               color: Colors.blue, width: 1.8))),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 30,
               ),
               Padding(
@@ -152,23 +152,23 @@ class _LayoutState extends State<Layout> {
                       style: ElevatedButton.styleFrom(
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(15))),
-                      child: Text('Log in')),
+                      child: const Text('Log in')),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 45,
               ),
-              Row(
+              const Row(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(left: 70),
+                    padding: EdgeInsets.only(left: 70),
                     child: Text(
                       'Already have and account?',
                       style: TextStyle(color: Colors.grey),
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 10),
+                    padding: EdgeInsets.only(left: 10),
                     child: Text(
                       'Sign up',
                       style: TextStyle(

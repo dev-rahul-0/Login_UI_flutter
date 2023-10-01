@@ -10,7 +10,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(child: Text('sign out')),
+      body: Center(child: Text('sign out',style: TextStyle(color: Colors.blue),)),
     );
   }
 }
